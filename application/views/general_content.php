@@ -277,18 +277,18 @@
 								src="<?= base_url('images/icon/sms.PNG') ?>" style="width: 15px; height: auto;"></span>
 						QUA KÊNH SMS</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="pills-wap-tab" data-toggle="pill" href="#pills-wap" role="tab"
-					   aria-controls="pills-profile" aria-selected="false"><span><img
-								src="<?= base_url('images/icon/global.PNG') ?>"
-								style="width: 15px; height: auto;"></span> QUA KÊNH WAP</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="pills-ivr-tab" data-toggle="pill" href="#pills-ivr" role="tab"
-					   aria-controls="pills-contact" aria-selected="false"><span><img
-								src="<?= base_url('images/icon/tele.png') ?>" style="width: 15px; height: auto;"></span>
-						QUA KÊNH IVR</a>
-				</li>
+<!--				<li class="nav-item">-->
+<!--					<a class="nav-link" id="pills-wap-tab" data-toggle="pill" href="#pills-wap" role="tab"-->
+<!--					   aria-controls="pills-profile" aria-selected="false"><span><img-->
+<!--								src="--><?//= base_url('images/icon/global.PNG') ?><!--"-->
+<!--								style="width: 15px; height: auto;"></span> QUA KÊNH WAP</a>-->
+<!--				</li>-->
+<!--				<li class="nav-item">-->
+<!--					<a class="nav-link" id="pills-ivr-tab" data-toggle="pill" href="#pills-ivr" role="tab"-->
+<!--					   aria-controls="pills-contact" aria-selected="false"><span><img-->
+<!--								src="--><?//= base_url('images/icon/tele.png') ?><!--" style="width: 15px; height: auto;"></span>-->
+<!--						QUA KÊNH IVR</a>-->
+<!--				</li>-->
 			</ul>
 			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="pills-sms" role="tabpanel" aria-labelledby="pills-sms-tab">
@@ -461,7 +461,7 @@
 						<p class="text-center">Khách hàng truy cập vào website dịch vụ: <span><a
 									href="http://mytalk.vn">http://mytalk.vn</a></span> trên thiết bị di động</p>
 						<h2 class="text-center text-color-custom">ĐĂNG KÍ</h2>
-						<p class="text-center"><strong>Trường hợp sử dụng kết nối 3G/4G MobiFone hoặc Viettel</strong>
+						<p class="text-center"><strong>Trường hợp sử dụng kết nối 3G/4G</strong>
 						</p>
 						<p class="text-center text-color-custom"><strong>Tự động nhận diện số thuê bao.</strong></p>
 
