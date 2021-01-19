@@ -268,8 +268,8 @@
 			<h1 class="text-center text-color-custom" style="font-weight: bolder; margin-top: 30px">HƯỚNG DẪN</h1>
 			<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px; margin: 20px auto 20px auto;">
 			<h4 class="text-center">CÁCH ĐĂNG KÍ/HỦY DỊCH VỤ</h4>
-			<p class="w-50 text-center" style="margin: auto">Chỉ cần là thuê bao đang hoạt động 2 chiều của mạng
-				MobiFone bạn có thể dễ dàng đăng ký và sử dụng dịch vụ qua các kênh sau:</p>
+<!--			<p class="w-50 text-center" style="margin: auto">Chỉ cần là thuê bao đang hoạt động 2 chiều của mạng-->
+<!--				MobiFone bạn có thể dễ dàng đăng ký và sử dụng dịch vụ qua các kênh sau:</p>-->
 			<ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
 				<li class="nav-item">
 					<a class="nav-link active" id="pills-sms-tab" data-toggle="pill" href="#pills-sms" role="tab"
