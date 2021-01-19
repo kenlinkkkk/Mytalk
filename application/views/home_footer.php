@@ -12,11 +12,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-4">
-					<img src="<?= $link?>" class="img-fluid" alt="hop tac">
+					<div class="row">
+						<img src="<?= $link?>" class="img-fluid" alt="hop tac">
+						<a href='http://online.gov.vn/Home/WebDetails/60789'><img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" style="height: 60px"></a>
+					</div>
 					<ul class="footer-list-custom">
 						<li><span class="text-white"><strong>Chủ sở hữu website: </strong></span>Công ty Cổ phần VANO</li>
-						<li><span class="text-white"><strong>Số giấy CNKD: </strong></span>0103327293 cấp ngày 12/02/2019</li>
+						<li><span class="text-white"><strong>Số giấy CNKD: </strong></span>0103327293 cấp ngày 12/02/2009</li>
 						<li><span class="text-white"><strong>Nơi cấp: </strong></span>phòng Đăng kí kinh doanh, Sở kế hoạch và đầu tư thành phố Hà Nội</li>
+						<li><span class="text-white"><strong>Giấy CNĐK cung cấp dịch vụ nội dung thông tin trên mạng viễn thông di động số: </strong></span>198/GCN-DĐ cấp ngày 02/08/2018</li>
+						<li><span class="text-white"><strong>Nơi cấp: </strong></span>Cục Phát thanh, Truyền hình và Thông tin điện tử</li>
 						<li><span class="text-white"><strong>Chịu trách nhiệm ND: </strong></span>Ông Nguyễn Thanh Hương</li>
 					</ul>
 				</div>
@@ -28,8 +33,11 @@
 						<li><span><img src="<?= base_url('images/icon/email-icon.png')?>" class="icon-custom"></span><span class="text-white"><strong> Email: </strong></span> cskh@vano.vn</li>
 					</ul>
 				</div>
-				<div class="col-sm-12 col-md-4 hidden-sm">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.600747068335!2d105.78821921535437!3d21.008635493839844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aca925bb153f%3A0xcecd2c51b1172292!2zVmltZWNvIFBo4bqhbSBIw7luZw!5e0!3m2!1svi!2s!4v1563415826327!5m2!1svi!2s" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="col-sm-12 col-md-4">
+					<h4 style="color: white; font-weight: bold;">CHÍNH SÁCH</h4>
+					<ul class="footer-list-custom">
+						<li><a href="<?= base_url('chinh-sach')?>" class="text-white">Chính sách</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>

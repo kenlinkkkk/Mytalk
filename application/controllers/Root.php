@@ -19,25 +19,29 @@ class root extends MX_Controller
 		$html ='';
 		$segment1 = $this->uri->segment(1);
 
-		switch ($segment1) {
-			case 'admin':
-				$html = null;
-				break;
-			case 'test':
-				$html = modules::run('Test');
-				break;
-			case 'mobireg':
-				$html = modules::run('MobiReg');
-				break;
-			case 'header':
-				$html = modules::run('HeaderLog');
-				break;
-			case 'backurl':
-				$html = modules::run('Backurl');
-				break;
-			default:
-				$html = modules::run('Home_mode');
+		$str = substr($segment1, 0, 4);
+		if ($str == 'page') {
+			$html = modules::run('Test');
+		} else {
+			switch ($segment1) {
+				case 'admin':
+					$html = modules::run('Test');
+					break;
+				case 'mobireg':
+					$html = modules::run('MobiReg');
+					break;
+				case 'header':
+					$html = modules::run('HeaderLog');
+					break;
+				case 'backurl':
+					$html = modules::run('Backurl');
+					break;
+				default:
+					$html = modules::run('Home_mode');
+					break;
+			}
 		}
+
 		$this->output->set_output($html);
 	}
 }

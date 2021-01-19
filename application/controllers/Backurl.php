@@ -16,21 +16,19 @@ class Backurl extends MX_Controller
 		$this->load->library('session');
 		$this->load->helper('array');
 		date_default_timezone_set('UTC');
-	}
 
-	public function index()
-	{
+		log_message('ERROR', 'Back URL ->');
+
 		$header = $this->input->request_headers();
 
 		if (empty($header['Msisdn'])) {
 			if (empty($_GET['link'])) {
+				$array = array(
+					'msisdn' => 'empty'
+				);
 
-				$backurl = 'http://mytalk.vn/backurl';
-
-				$link = 'http://free.mobifone.vn/isdn?sp=1048&link='. aes128Encrypt(MYTALK_KEY_MOBI, $backurl);
-				log_message("ERROR","LINK->".$link);
-
-				header("Location: ". $link);
+				$this->session->set_userdata($array);
+				header('Location: '. base_url());
 			} else {
 
 				$split_data = $_GET['link'];
@@ -59,5 +57,10 @@ class Backurl extends MX_Controller
 
 			header("Location: ".base_url());
 		}
+	}
+
+	public function index()
+	{
+
 	}
 }

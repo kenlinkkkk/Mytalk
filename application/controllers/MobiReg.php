@@ -40,7 +40,7 @@ class MobiReg extends  MX_Controller
 
 			log_message('info', 'phoneNumb=' .$msisdn . '|url=' . $log_data);
 
-			$url = MOBIPHONE_CONFIRM . "?sp=1048&link=" . base64_encode(aes128_ecb_encrypt(MYTALK_KEY_MOBI, $data, ""));
+			$url = MOBIPHONE_CONFIRM . "?sp=1048&link=" . aes128Encrypt(MYTALK_KEY_MOBI, $data);
 
 			log_message('info', 'phoneNumb='.$msisdn . '|url=' . $url);
 

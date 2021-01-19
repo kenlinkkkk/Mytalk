@@ -14,16 +14,71 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 			</ol>
 			<div class="carousel-inner">
+<!--				<div class="carousel-item active">-->
+<!--					<img class="d-block w-100" src="--><?//= base_url('images/img/banner-6.png') ?><!--" alt="First slide">-->
+<!--				</div>-->
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="<?= base_url('images/img/carousel-1.png')?>" alt="First slide">
+					<img class="d-block w-100" src="<?= base_url('images/img/banner-1.png') ?>" alt="First slide">
+					<div class="col-sm-12 col-md-4 banner-info">
+						<h2 class="text-color-custom p-2 font-weight-bolder">Dịch vụ ứng dụng tính năng công nghệ
+							mới</h2>
+						<h4 class="text-color-custom p-2 font-weight-normal">
+							MyTalk 4.0 là dịch vụ duy nhất của MobiFone ứng dụng tính năng công nghệ “speech to text” -
+							nhận diện giọng nói, làm việc trên nền tảng trí tuệ nhân tạo AI
+						</h4>
+						<a class="btn btn-outline-success" href="#goidichvu">Đăng ký</a>
+					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="<?= base_url('images/img/carousel-2.png')?>" alt="Second slide">
+					<img class="d-block w-100" src="<?= base_url('images/img/banner-2.png') ?>" alt="Second slide">
+					<div class="col-sm-12 col-md-4 banner-info">
+						<h2 class="text-color-custom p-2 font-weight-bolder">Học Tiếng Anh một cách tiện lợi và thông
+							minh hơn</h2>
+						<h4 class="text-color-custom p-2 font-weight-normal">
+							Học Tiếng Anh mọi lúc, mọi nơi với nhiều cấp độ, hình thức đa dạng, phong phú
+						</h4>
+						<a class="btn btn-outline-success" href="#goidichvu">Đăng ký</a>
+					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="<?= base_url('images/img/carousel-3.png')?>" alt="Third slide">
+					<img class="d-block w-100" src="<?= base_url('images/img/banner-3.png') ?>" alt="Third slide">
+					<div class="col-sm-12 col-md-4 banner-info">
+						<h2 class="text-color-custom p-2 font-weight-bolder">Thử thách và nâng cao kiến thức của bản
+							thân với bộ câu hỏi đa lĩnh vực</h2>
+						<h4 class="text-color-custom p-2 font-weight-normal">
+							Thỏa sức thử thách bản thân với các câu hỏi thú vị, hấp dẫn trên mọi lĩnh vực cùng cơ hội
+							nhận các phần thưởng vô cùng hấp dẫn
+						</h4>
+						<a class="btn btn-outline-success" href="#goidichvu">Đăng ký</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="<?= base_url('images/img/banner-4.png') ?>" alt="Third slide">
+					<div class="col-sm-12 col-md-4 banner-info">
+						<h2 class="text-color-custom p-2 font-weight-bolder">Chương trình khuyến mại với các phần thưởng
+							cực kỳ hấp dẫn</h2>
+						<h4 class="text-color-custom p-2 font-weight-normal">
+							Các CTKM diễn ra theo từng thời kỳ với những phần thưởng hấp dẫn sẽ đem đến cho bạn những
+							trải nghiệm tuyệt vời
+						</h4>
+						<a class="btn btn-outline-success" href="#goidichvu">Đăng ký</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="<?= base_url('images/img/banner-5.png') ?>" alt="Third slide">
+					<div class="col-sm-12 col-md-4 banner-info">
+						<h2 class="text-color-custom p-2 font-weight-bolder">Cước dịch vụ siêu rẻ</h2>
+						<h4 class="text-color-custom p-2 font-weight-normal">
+							Thoải mái trải nghiệm và khám phá dịch vụ với giá cước chỉ 3.000đ/ngày, miễn phí ngày đầu
+							đăng ký
+						</h4>
+						<a class="btn btn-outline-success" href="#goidichvu">Đăng ký</a>
+					</div>
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,15 +99,17 @@
 					<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px;">
 				</div>
 				<div class="col-sm-12 col-md-5">
-					<p>MyTalk 4.0 là dịch vụ ứng dụng tính năng công nghệ mới "speech to text" - nhận dạng giọng nói. Công nghệ
-					specch to text làm việc trên nền tảng công nghệ trí tuệ nhân tạo AI, giúp chuyển đổi giọng nói thành văn bản.
-					Thay vì tương tác bằng bàn phím vật lý thì khách hàng chỉ cần tương tác với hệ thống bằng giọng nói.</p>
-					<p>Những tương tác hệ thống đến khách hàng cũng bằng giọng nói. Trong thời đại bùng nổ thông tin và cuộc
-					cách mạng công nghiệp 4.0 đang diễn ra mạnh mẽ như hiện nay, MyTalk 4.0 tự hào là dịch vụ mang tính đột phá,
-					mới nhất và duy nhất trên mạng MobiFone.</p>
-					<p>Việc ứng dụng công nghệ nhận diện giọng nói trên nền tảng trí tuệ nhân tạo AI sẽ đem đến cho khách hàng
-					những trải nghiệm thú vị nhất. Đến với Mytalk 4.0 là đến với công nghệ mới, đến với sự hòa nhập, sự tiến bộ
-					và xu thế mới.</p>
+					<p>MyTalk 4.0 là dịch vụ ứng dụng tính năng công nghệ mới "speech to text" - nhận dạng giọng nói.
+						Công nghệ speech to text làm việc trên nền tảng công nghệ trí tuệ nhân tạo AI, giúp chuyển đổi
+						giọng nói thành văn bản. Thay vì tương tác bằng bàn phím vật lý thì khách hàng chỉ cần tương tác
+						với hệ thống bằng giọng nói. Những tương tác hệ thống đến khách hàng cũng bằng giọng nói.</p>
+					<p>Trong thời đại bùng nổ thông tin và cuộc cách mạng công nghiệp 4.0 đang diễn ra mạnh mẽ như hiện
+						nay, MyTalk 4.0 tự hào là dịch vụ mang tính đột phá, giúp tối ưu trải nghiệm của người dùng, đem
+						đến cho khách hàng những trải nghiệm hoàn toàn mới. </p>
+					<p>Việc ứng dụng công nghệ nhận diện giọng nói trên nền tảng trí tuệ nhân tạo AI sẽ đem đến cho
+						khách hàng những trải nghiệm thú vị nhất. Đến với Mytalk 4.0 là đến với công nghệ mới, đến với
+						sự hòa nhập, sự tiến bộ và xu thế mới.</p>
+					<p>Hiện nay dịch vụ đang được triển khai song song trên cả 2 nhà mạng MobiFone và Viettel.</p>
 				</div>
 				<div class="col-sm-12 col-md-7">
 					<img src="<?= base_url('images/img/mt4.png')?>" class="img-fluid">
@@ -347,7 +404,11 @@
 										<hr style="margin: auto; width: 80%; border: 1px solid white">
 										<p style="padding-bottom: 20px;">Không cộng dồn hay bù số phút thừa (chưa sử dụng hết phút miễn phí) sang chu kỳ cước sau</p>
 										<div class="button-goi">
-											<a class="btn btn-primary" style="width: 100px; font-weight: 700;" href="javascript://" rel="M">Đăng ký</a>
+											<?php if ($this->session->ml == '1'):?>
+												<a class="btn btn-warning disabled" style="width: 100px; font-weight: 700;" href="javascript://" rel="M">Đã đăng ký</a>
+											<?php else: ?>
+												<a class="btn btn-primary" style="width: 100px; font-weight: 700;" href="javascript://" rel="M">Đăng ký</a>
+											<?php endif;?>
 										</div>
 									</div>
 								</div>
@@ -366,7 +427,11 @@
 										<hr style="margin: auto; width: 80%; border: 1px solid white">
 										<p style="padding-bottom: 20px;">Không cộng dồn hay bù số phút thừa (chưa sử dụng hết phút miễn phí) sang chu kỳ cước sau</p>
 										<div class="button-goi">
-											<a class="btn btn-primary" style="width: 100px; font-weight: 700;" href="javascript://" rel="P">Đăng ký</a>
+											<?php if ($this->session->promotion == '1'):?>
+												<a class="btn btn-warning disabled" style="width: 100px; font-weight: 700;" href="javascript://" rel="P">Đã đăng ký</a>
+											<?php else: ?>
+												<a class="btn btn-primary" style="width: 100px; font-weight: 700;" href="javascript://" rel="P">Đăng ký</a>
+											<?php endif;?>
 										</div>
 									</div>
 								</div>

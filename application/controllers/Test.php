@@ -22,58 +22,21 @@ class test extends MX_Controller
 
 	public function index()
 	{
-		$header = $this->input->request_headers();
+		$baseUrl = 'http://bss.vascloud.com.vn/unify/register.jsp';
+		$requestId = date('ymdhis');
+		$backUrl = strtolower(urlencode(base_url('backurl')));
+		$returnUrl = strtolower(urlencode(base_url('backurl')));
+		$cpId = '1111';
+		$serviceId = '1001095';
+		$packageId = '1012707';
+		$requestDatetime = date(' yyyyMMddHHmmss');
+		$channel = 'wap';
+		$secureCode = md5(random_int(1, 999999) . '"pre_register.jsp' . '"pre_register.jsp' . $requestDatetime .'wap' . 'vasgate@13579');
+		$str = 'vasgate@13579' . random_int(1, 999999);
+		$h_sc = md5($str);
 
-		if (empty($header['Msisdn'])) {
-			if (empty($this->session->msisdn)) {
-				if (empty($_GET['link'])) {
-					$backurl = 'http://mytalk.vn/test';
+		$url = $baseUrl .'?requestid='.$requestId.'&returnurl='.$returnUrl.'&backurl='.$backUrl.'&cp='.$cpId.'&service='.$serviceId.'&package='.$packageId.'&requestdatetime='.$requestDatetime.'&channel='.$channel.'&securecode='.$secureCode;
 
-					$link = 'http://free.mobifone.vn/isdn?sp=1048&link='. aes128Encrypt(MYTALK_KEY_MOBI, $backurl);
-					log_message("ERROR","LINK->".$link);
-
-					header("Location: ". $link);
-
-				} else {
-					$split_data = $_GET['link'];
-					log_message("ERROR", "getMsisdn::split=".$split_data);
-
-					$data = aes128Decrypt(MYTALK_KEY_MOBI, $split_data);
-					log_message("ERROR", "getMsisdn::phone=" . $data);
-
-					if (empty($data)) {
-						$array = array(
-							'msisdn' => 'empty',
-						);
-
-						$this->session->set_userdata($array);
-						log_message("ERROR", "MSISDN-EMPTY->". $data);
-
-						header("Location: ".base_url());
-					} else {
-						$array = array(
-							'msisdn' => $data,
-						);
-
-						$this->session->set_userdata($array);
-						header("Location: ".base_url());
-					}
-				}
-			} else {
-				header("Location: ".base_url());
-			}
-		} else {
-			$data = $header['Msisdn'];
-
-			$array = array(
-				'msisdn' => $data
-			);
-
-			$this->session->set_userdata($array);
-
-			log_message("ERROR", "MSISDN-HEADER->". $data);
-
-			header("Location: ".base_url());
-		}
+		echo "<a href=". $url .">Click</a>";
 	}
 }

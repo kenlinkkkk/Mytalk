@@ -55,7 +55,7 @@
 							</li>
 							<?php
 							if ($this->session->msisdn == 'empty') {
-								echo '<li class="nav-item"><a id="dangnhapbtn1" class="btn btn-primary btn-outline-light btn-sm" href="javascript://" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
+								echo '<li class="nav-item"><a id="dangnhapbtn1" class="btn btn-primary btn-outline-light btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
 								}
 							?>
 						</ul>
@@ -68,7 +68,7 @@
 						<ul class="navbar-nav ml-auto">
 							<?php
 								if ($this->session->msisdn != 'empty') {
-									echo '<li class="nav-item none-padding"><a href="#" class="nav-link text-white disabled">Xin chào: '.$phone.'</a></li>';
+									echo '<li class="nav-item none-padding"><a href="#" class="nav-link text-white disabled">Xin chào: '.rewitePhoneNumb($this->session->msisdn,1).'</a></li>';
 								}
 							?>
 							<li class="nav-item non-padding">
@@ -89,9 +89,15 @@
 							<li class="nav-item non-padding">
 								<a class="nav-link text-white" href="#aboutme">VỀ CHÚNG TÔI</a>
 							</li>
+							<li class="nav-item none-padding">
+								<a class="nav-link text-white" href="<?= base_url('khuyen-mai');?>">KHUYẾN MẠI</a>
+							</li>
+							<li class="nav-item none-padding">
+								<a class="nav-link text-white" href="http://news.mytalk.vn/">TIN TỨC</a>
+							</li>
 							<?php
 								if ($this->session->msisdn == 'empty') {
-									echo '<li class="nav-item none-padding show-sm"><a id="dangnhapbtn2" class="btn btn-primary btn-sm" href="javascript://" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
+									echo '<li class="nav-item none-padding show-sm"><a id="dangnhapbtn2" class="btn btn-primary btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
 								}
 							?>
 						</ul>

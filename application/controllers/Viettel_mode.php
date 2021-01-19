@@ -24,6 +24,9 @@ class viettel_mode extends MX_Controller
 			case 'khuyen-mai':
 				$main = $this->_viettel_km();
 				break;
+			case 'chinh-sach':
+				$main = $this->_chinh_sach();
+				break;
 			default:
 				$main = $this->_viettel_content();
 		}
@@ -68,5 +71,14 @@ class viettel_mode extends MX_Controller
 			'view' => $this->load->view('viettel_km', '', TRUE),
 			'title' => 'Khuyến mại',
 		);
+	}
+
+	public function _chinh_sach() {
+		$data = array(
+			'title' => 'Chính sách',
+			'view' => $this->load->view('chinhsach', '', TRUE),
+		);
+
+		return $data;
 	}
 }

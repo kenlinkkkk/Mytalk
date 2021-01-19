@@ -24,6 +24,22 @@
 	border-radius: 6px;
 }
 
+.banner-info {
+	position: absolute;
+	height: 35vh;
+	top: 30vh;
+	left: 15%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: lightgray;
+	border-radius: 5px;
+}
+
+.banner-info a {
+	margin-top: 80px;
+	width: 80px;
+	margin-left: 20px;
+}
+
 .show-sm {
 	display: none;
 }
@@ -292,5 +308,24 @@
 
 	.login-logo {
 		top: 20px;
+	}
+
+	.banner-info h2 {
+		font-size: 19px;
+	}
+
+	.banner-info h4 {
+		font-size: 15px;
+	}
+
+	.banner-info {
+		top: 0;
+		left: 0;
+	}
+
+	.banner-info a {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		margin-left: 5px;
 	}
 }

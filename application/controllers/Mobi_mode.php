@@ -26,6 +26,9 @@ class mobi_mode extends MX_Controller
 			case 'khuyen-mai':
 				$main = $this->_mobi_km();
 				break;
+			case 'chinh-sach':
+				$main = $this->_chinh_sach();
+				break;
 			default:
 				$main = $this->_mobi_content();
 		}
@@ -68,8 +71,17 @@ class mobi_mode extends MX_Controller
 	public function _mobi_km()
 	{
 		$data = array(
-			'view' => $this->load->view('mobi_km', '', TRUE),
+			'view' => $this->load->view('general_km', '', TRUE),
 			'title' => 'Khuyến mại',
+		);
+
+		return $data;
+	}
+
+	public function _chinh_sach() {
+		$data = array(
+			'title' => 'Chính sách',
+			'view' => $this->load->view('chinhsach', '', TRUE),
 		);
 
 		return $data;
