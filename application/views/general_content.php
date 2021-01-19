@@ -184,43 +184,43 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="col-12">
-								<h1 class="text-color-custom" style="margin: 20px auto">MẸ KỂ CON NGHE</h1>
-								<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px;">
-							</div>
-							<div class="row">
-								<div class="col-sm-12 col-md-7">
-									<img src="<?= base_url('images/img/mt43.png') ?>" class="img-fluid"
-										 style="max-height: 400px; width: auto;">
-								</div>
-								<div class="col-sm-12 col-md-5">
-									<p>
-										Bạn muốn cho con nghe những câu chuyện cổ tích thú vị, những câu chuyện về bài
-										học đạo đức ý nghĩa nhưng lại không có thời gian để kể chuyện cho con nghe.
-										Sản phẩm “Mẹ kể con nghe” sẽ giải quyết ngay những vướng mắc đó của bạn!
-									</p>
-									<ul class="cc-li-custom">
-										<li><p>
-												<span><i
-														class="far fa-check-circle text-color-custom"></i></span><strong>
-													Con bạn sẽ được nghe những câu truyện cổ tích thú vị.</strong></p>
-										</li>
-										<li><p>
-												<span><i
-														class="far fa-check-circle text-color-custom"></i></span><strong>
-													Học những bài học đạo đức đến từ những câu truyện.</strong></p></li>
-										<li><p>
-												<span><i
-														class="far fa-check-circle text-color-custom"></i></span><strong>
-													Học tập lịch sử đất nước qua những câu truyện lịch sử.</strong></p>
-										</li>
-									</ul>
-									<p>Với sản phẩm này, bố mẹ cũng giảm được nỗi lo khi các con sử dụng các thiết bị
-										điện tử không đúng mục đích.</p>
-								</div>
-							</div>
-						</div>
+<!--						<div class="carousel-item">-->
+<!--							<div class="col-12">-->
+<!--								<h1 class="text-color-custom" style="margin: 20px auto">MẸ KỂ CON NGHE</h1>-->
+<!--								<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px;">-->
+<!--							</div>-->
+<!--							<div class="row">-->
+<!--								<div class="col-sm-12 col-md-7">-->
+<!--									<img src="--><?//= base_url('images/img/mt43.png') ?><!--" class="img-fluid"-->
+<!--										 style="max-height: 400px; width: auto;">-->
+<!--								</div>-->
+<!--								<div class="col-sm-12 col-md-5">-->
+<!--									<p>-->
+<!--										Bạn muốn cho con nghe những câu chuyện cổ tích thú vị, những câu chuyện về bài-->
+<!--										học đạo đức ý nghĩa nhưng lại không có thời gian để kể chuyện cho con nghe.-->
+<!--										Sản phẩm “Mẹ kể con nghe” sẽ giải quyết ngay những vướng mắc đó của bạn!-->
+<!--									</p>-->
+<!--									<ul class="cc-li-custom">-->
+<!--										<li><p>-->
+<!--												<span><i-->
+<!--														class="far fa-check-circle text-color-custom"></i></span><strong>-->
+<!--													Con bạn sẽ được nghe những câu truyện cổ tích thú vị.</strong></p>-->
+<!--										</li>-->
+<!--										<li><p>-->
+<!--												<span><i-->
+<!--														class="far fa-check-circle text-color-custom"></i></span><strong>-->
+<!--													Học những bài học đạo đức đến từ những câu truyện.</strong></p></li>-->
+<!--										<li><p>-->
+<!--												<span><i-->
+<!--														class="far fa-check-circle text-color-custom"></i></span><strong>-->
+<!--													Học tập lịch sử đất nước qua những câu truyện lịch sử.</strong></p>-->
+<!--										</li>-->
+<!--									</ul>-->
+<!--									<p>Với sản phẩm này, bố mẹ cũng giảm được nỗi lo khi các con sử dụng các thiết bị-->
+<!--										điện tử không đúng mục đích.</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
 					</div>
 				</div>
 			</div>
@@ -301,9 +301,9 @@
 								<h4 class="text-center">GÓI MACHINE LEARNING</h4>
 								<div class="card text-center" style="background-color:#f2f5f9;">
 									<ul class="list-group list-group-flush">
-										<li class="list-group-item">
-											<h4 class="text-color-custom">MobiFone</h4>
-										</li>
+<!--										<li class="list-group-item">-->
+<!--											<h4 class="text-color-custom">MobiFone</h4>-->
+<!--										</li>-->
 										<li class="list-group-item">
 											<p>Đăng kí dịch vụ</p>
 											<div class="row">
@@ -325,114 +325,117 @@
 											<p>Hủy gói thành viên</p>
 											<p><strong>Soạn HUY M</strong></p>
 										</li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="col-sm-12 col-md-3">
-								<div class="row">
-									<div class="col-12">
-										<h4 class="text-center">GÓI PROMOTION</h4>
-									</div>
-								</div>
-								<div class="card text-center">
-									<ul class="list-group list-group-flush">
 										<li class="list-group-item">
-											<h4 class="text-color-custom">MobiFone</h4>
-										</li>
-										<li class="list-group-item">
-											<p>Đăng kí dịch vụ</p>
-											<div class="row">
-												<div class="col-12">
-													<p><strong>Soạn DK P</strong></p>
-												</div>
-											</div>
-										</li>
-										<li class="list-group-item">
-											<p>Gói ngày</p>
-											<hr style="width: 30px; height: 3px; margin: auto">
-										</li>
-										<li class="list-group-item">
-											<p>Cú pháp xác nhận đăng kí</p>
-											<p><strong>Soạn Y P</strong></p>
-										</li>
-										<li class="list-group-item">
-											<p>Hủy gói thành viên</p>
-											<p><strong>Soạn HUY P</strong></p>
+											<a href="http://bss.vascloud.com.vn/unify/register.jsp?requestid=210119092541&returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&cp=1111&service=1001095&package=1012707&requestdatetime=" class="btn btn-sm btn-primary">Đăng ký</a>
 										</li>
 									</ul>
 								</div>
 							</div>
 
-							<div class="col-sm-12 col-md-3">
-								<div class="row">
-									<div class="col-12">
-										<h4 class="text-center">GÓI MEDIUM</h4>
-									</div>
-								</div>
-								<div class="card text-center">
-									<ul class="list-group list-group-flush">
-										<li class="list-group-item">
-											<h4 class="text-color-custom">Viettel</h4>
-										</li>
-										<li class="list-group-item">
-											<p>Đăng kí dịch vụ</p>
-											<div class="row">
-												<div class="col-12">
-													<p><strong>Soạn M hoặc soạn M1</strong></p>
-												</div>
-											</div>
-										</li>
-										<li class="list-group-item">
-											<p>Gói ngày</p>
-											<hr style="width: 30px; height: 3px; margin: auto">
-										</li>
-										<li class="list-group-item">
-											<p>Cú pháp xác nhận đăng kí</p>
-											<p><strong>-</strong></p>
-										</li>
-										<li class="list-group-item">
-											<p>Hủy gói thành viên</p>
-											<p><strong>-</strong></p>
-										</li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="col-sm-12 col-md-3">
-								<div class="row">
-									<div class="col-12">
-										<h4 class="text-center">GÓI MẸ KỂ CON NGHE</h4>
-									</div>
-								</div>
-								<div class="card text-center">
-									<ul class="list-group list-group-flush">
-										<li class="list-group-item">
-											<h4 class="text-color-custom">Viettel</h4>
-										</li>
-										<li class="list-group-item">
-											<p>Đăng kí dịch vụ</p>
-											<div class="row">
-												<div class="col-12">
-													<p><strong>Soạn ME hoặc soạn KE</strong></p>
-												</div>
-											</div>
-										</li>
-										<li class="list-group-item">
-											<p>Gói ngày</p>
-											<hr style="width: 30px; height: 3px; margin: auto">
-										</li>
-										<li class="list-group-item">
-											<p>Cú pháp xác nhận đăng kí</p>
-											<p><strong>-</strong></p>
-										</li>
-										<li class="list-group-item">
-											<p>Hủy gói thành viên</p>
-											<p><strong>-</strong></p>
-										</li>
-									</ul>
-								</div>
-							</div>
+<!--							<div class="col-sm-12 col-md-3">-->
+<!--								<div class="row">-->
+<!--									<div class="col-12">-->
+<!--										<h4 class="text-center">GÓI PROMOTION</h4>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<div class="card text-center">-->
+<!--									<ul class="list-group list-group-flush">-->
+<!--										<li class="list-group-item">-->
+<!--											<h4 class="text-color-custom">MobiFone</h4>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Đăng kí dịch vụ</p>-->
+<!--											<div class="row">-->
+<!--												<div class="col-12">-->
+<!--													<p><strong>Soạn DK P</strong></p>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Gói ngày</p>-->
+<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Cú pháp xác nhận đăng kí</p>-->
+<!--											<p><strong>Soạn Y P</strong></p>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Hủy gói thành viên</p>-->
+<!--											<p><strong>Soạn HUY P</strong></p>-->
+<!--										</li>-->
+<!--									</ul>-->
+<!--								</div>-->
+<!--							</div>-->
+<!---->
+<!--							<div class="col-sm-12 col-md-3">-->
+<!--								<div class="row">-->
+<!--									<div class="col-12">-->
+<!--										<h4 class="text-center">GÓI MEDIUM</h4>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<div class="card text-center">-->
+<!--									<ul class="list-group list-group-flush">-->
+<!--										<li class="list-group-item">-->
+<!--											<h4 class="text-color-custom">Viettel</h4>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Đăng kí dịch vụ</p>-->
+<!--											<div class="row">-->
+<!--												<div class="col-12">-->
+<!--													<p><strong>Soạn M hoặc soạn M1</strong></p>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Gói ngày</p>-->
+<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Cú pháp xác nhận đăng kí</p>-->
+<!--											<p><strong>-</strong></p>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Hủy gói thành viên</p>-->
+<!--											<p><strong>-</strong></p>-->
+<!--										</li>-->
+<!--									</ul>-->
+<!--								</div>-->
+<!--							</div>-->
+<!---->
+<!--							<div class="col-sm-12 col-md-3">-->
+<!--								<div class="row">-->
+<!--									<div class="col-12">-->
+<!--										<h4 class="text-center">GÓI MẸ KỂ CON NGHE</h4>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<div class="card text-center">-->
+<!--									<ul class="list-group list-group-flush">-->
+<!--										<li class="list-group-item">-->
+<!--											<h4 class="text-color-custom">Viettel</h4>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Đăng kí dịch vụ</p>-->
+<!--											<div class="row">-->
+<!--												<div class="col-12">-->
+<!--													<p><strong>Soạn ME hoặc soạn KE</strong></p>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Gói ngày</p>-->
+<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Cú pháp xác nhận đăng kí</p>-->
+<!--											<p><strong>-</strong></p>-->
+<!--										</li>-->
+<!--										<li class="list-group-item">-->
+<!--											<p>Hủy gói thành viên</p>-->
+<!--											<p><strong>-</strong></p>-->
+<!--										</li>-->
+<!--									</ul>-->
+<!--								</div>-->
+<!--							</div>-->
 						</div>
 					</div>
 					<div class="container">

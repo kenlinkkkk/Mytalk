@@ -12,52 +12,52 @@ class home_mode extends MX_Controller {
 		$this->load->helper('_helper');
 		date_default_timezone_set('UTC');
 
-		log_message("ERROR", "REDIRECT->");
-		if (empty($this->session->msisdn)) {
-			$backurl = base_url('backurl');
-
-			$link = 'http://free.mobifone.vn/isdn?sp=1048&link='. aes128Encrypt(MYTALK_KEY_MOBI, $backurl);
-
-			header("Location:  ". $link);
-		}
+//		log_message("ERROR", "REDIRECT->");
+//		if (empty($this->session->msisdn)) {
+//			$backurl = base_url('backurl');
+//
+//			$link = 'http://free.mobifone.vn/isdn?sp=1048&link='. aes128Encrypt(MYTALK_KEY_MOBI, $backurl);
+//
+//			header("Location:  ". $link);
+//		}
 	}
 
 	public function index()
 	{
-		if ($this->session->msisdn == 'empty') {
+//		if ($this->session->msisdn == 'empty') {
 			$home = $this->_home_content();
 			$footer = $this->_home_footer();
-		} else {
-			$home = $this->_mobi_content();
-			$footer = $this->_mobi_footer();
-
-			$phone = rewitePhoneNumb($this->session->msisdn,1);
-
-			if (!empty($this->session->promotion) || !empty($this->session->ml)) {
-				$checkpkg = checkPackage('http://10.54.132.7:8888/v1/main/check_subs', $this->session->msisdn);
-
-				$check_data = $checkpkg['data'];
-
-				foreach ($check_data as $check) {
-					if (array_search('P', $check, true)) {
-						$array = array(
-							'promotion' => '1'
-						);
-
-						$this->session->set_userdata($array);
-					}
-
-					if (array_search('M', $check, true)) {
-
-						$array = array(
-							'ml' => '1'
-						);
-
-						$this->session->set_userdata($array);
-					}
-				}
-			}
-		}
+//		} else {
+//			$home = $this->_mobi_content();
+//			$footer = $this->_mobi_footer();
+//
+//			$phone = rewitePhoneNumb($this->session->msisdn,1);
+//
+//			if (!empty($this->session->promotion) || !empty($this->session->ml)) {
+//				$checkpkg = checkPackage('http://10.54.132.7:8888/v1/main/check_subs', $this->session->msisdn);
+//
+//				$check_data = $checkpkg['data'];
+//
+//				foreach ($check_data as $check) {
+//					if (array_search('P', $check, true)) {
+//						$array = array(
+//							'promotion' => '1'
+//						);
+//
+//						$this->session->set_userdata($array);
+//					}
+//
+//					if (array_search('M', $check, true)) {
+//
+//						$array = array(
+//							'ml' => '1'
+//						);
+//
+//						$this->session->set_userdata($array);
+//					}
+//				}
+//			}
+//		}
 		
 		$segment1 = $this->uri->segment(1);
 
