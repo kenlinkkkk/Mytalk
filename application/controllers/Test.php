@@ -26,17 +26,28 @@ class test extends MX_Controller
 		$requestId = date('ymdhis');
 		$backUrl = strtolower(urlencode(base_url('backurl')));
 		$returnUrl = strtolower(urlencode(base_url('backurl')));
-		$cpId = '1111';
+		$cpId = '1000711';
 		$serviceId = '1001095';
 		$packageId = '1012707';
 		$requestDatetime = date(' yyyyMMddHHmmss');
 		$channel = 'wap';
-		$secureCode = md5(random_int(1, 999999) . '"pre_register.jsp' . '"pre_register.jsp' . $requestDatetime .'wap' . 'vasgate@13579');
+		$securePass = 'MZP3WAqOCUIWrMfsG7Ac2BfdcOzUfxdA';
+		$secureCode = md5(random_int(1, 999999) . '"pre_register.jsp' . '"pre_register.jsp' . $requestDatetime .'wap' . $securePass);
 		$str = 'vasgate@13579' . random_int(1, 999999);
 		$h_sc = md5($str);
 
 		$url = $baseUrl .'?requestid='.$requestId.'&returnurl='.$returnUrl.'&backurl='.$backUrl.'&cp='.$cpId.'&service='.$serviceId.'&package='.$packageId.'&requestdatetime='.$requestDatetime.'&channel='.$channel.'&securecode='.$secureCode;
 
 		echo "<a href=". $url .">Click</a>";
+	}
+
+	function generateRandomString($length = 32) {
+		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$charactersLength = strlen($characters);
+		$randomString = '';
+		for ($i = 0; $i < $length; $i++) {
+			$randomString .= $characters[rand(0, $charactersLength - 1)];
+		}
+		return $randomString;
 	}
 }

@@ -326,7 +326,7 @@
 											<p><strong>Soạn HUY M</strong></p>
 										</li>
 										<li class="list-group-item">
-											<a href="http://bss.vascloud.com.vn/unify/register.jsp?requestid=210119092541&returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&cp=1111&service=1001095&package=1012707&requestdatetime=" class="btn btn-sm btn-primary">Đăng ký</a>
+											<a href='http://bss.vascloud.com.vn/unify/register.jsp?requestid=210122014754&amp;returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;cp=1000711&amp;service=1001095&amp;package=1012707&amp;requestdatetime="21212121janjan2222010101015454&channel="wap&amp;securecode=127c2455d2032a6242ce1b342ff85445" class="btn btn-sm btn-primary'>Đăng ký</a>
 										</li>
 									</ul>
 								</div>
