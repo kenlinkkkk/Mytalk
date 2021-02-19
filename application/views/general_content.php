@@ -264,7 +264,7 @@
 	<!--	</div>-->
 	<!-- end khuyen mai -->
 	<div class="w-100" id="huongdan">
-		<div class="container">
+		<div class="container-fluid">
 			<h1 class="text-center text-color-custom" style="font-weight: bolder; margin-top: 30px">HƯỚNG DẪN</h1>
 			<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px; margin: 20px auto 20px auto;">
 			<h4 class="text-center">CÁCH ĐĂNG KÍ/HỦY DỊCH VỤ</h4>
@@ -297,13 +297,14 @@
 								class="span-text">1048</span></h4>
 
 						<div class="row">
-							<div class="col-sm-12 col-md-3">
+							<div class="col-sm-12 col-md-1"></div>
+							<div class="col-sm-12 col-md-2">
 								<h4 class="text-center">GÓI MACHINE LEARNING</h4>
 								<div class="card text-center" style="background-color:#f2f5f9;">
 									<ul class="list-group list-group-flush">
-<!--										<li class="list-group-item">-->
-<!--											<h4 class="text-color-custom">MobiFone</h4>-->
-<!--										</li>-->
+										<li class="list-group-item">
+											<h4 class="text-color-custom">MobiFone</h4>
+										</li>
 										<li class="list-group-item">
 											<p>Đăng kí dịch vụ</p>
 											<div class="row">
@@ -326,116 +327,167 @@
 											<p><strong>Soạn HUY M</strong></p>
 										</li>
 										<li class="list-group-item">
-											<a href='http://bss.vascloud.com.vn/unify/register.jsp?requestid=210122014754&amp;returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;cp=1000711&amp;service=1001095&amp;package=1012707&amp;requestdatetime="21212121janjan2222010101015454&channel="wap&amp;securecode=127c2455d2032a6242ce1b342ff85445" class="btn btn-sm btn-primary'>Đăng ký</a>
+											<a href="#">-</a>
 										</li>
 									</ul>
 								</div>
 							</div>
 
-<!--							<div class="col-sm-12 col-md-3">-->
-<!--								<div class="row">-->
-<!--									<div class="col-12">-->
-<!--										<h4 class="text-center">GÓI PROMOTION</h4>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--								<div class="card text-center">-->
-<!--									<ul class="list-group list-group-flush">-->
-<!--										<li class="list-group-item">-->
-<!--											<h4 class="text-color-custom">MobiFone</h4>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Đăng kí dịch vụ</p>-->
-<!--											<div class="row">-->
-<!--												<div class="col-12">-->
-<!--													<p><strong>Soạn DK P</strong></p>-->
-<!--												</div>-->
-<!--											</div>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Gói ngày</p>-->
-<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Cú pháp xác nhận đăng kí</p>-->
-<!--											<p><strong>Soạn Y P</strong></p>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Hủy gói thành viên</p>-->
-<!--											<p><strong>Soạn HUY P</strong></p>-->
-<!--										</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!---->
-<!--							<div class="col-sm-12 col-md-3">-->
-<!--								<div class="row">-->
-<!--									<div class="col-12">-->
-<!--										<h4 class="text-center">GÓI MEDIUM</h4>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--								<div class="card text-center">-->
-<!--									<ul class="list-group list-group-flush">-->
-<!--										<li class="list-group-item">-->
-<!--											<h4 class="text-color-custom">Viettel</h4>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Đăng kí dịch vụ</p>-->
-<!--											<div class="row">-->
-<!--												<div class="col-12">-->
-<!--													<p><strong>Soạn M hoặc soạn M1</strong></p>-->
-<!--												</div>-->
-<!--											</div>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Gói ngày</p>-->
-<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Cú pháp xác nhận đăng kí</p>-->
-<!--											<p><strong>-</strong></p>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Hủy gói thành viên</p>-->
-<!--											<p><strong>-</strong></p>-->
-<!--										</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!---->
-<!--							<div class="col-sm-12 col-md-3">-->
-<!--								<div class="row">-->
-<!--									<div class="col-12">-->
-<!--										<h4 class="text-center">GÓI MẸ KỂ CON NGHE</h4>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--								<div class="card text-center">-->
-<!--									<ul class="list-group list-group-flush">-->
-<!--										<li class="list-group-item">-->
-<!--											<h4 class="text-color-custom">Viettel</h4>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Đăng kí dịch vụ</p>-->
-<!--											<div class="row">-->
-<!--												<div class="col-12">-->
-<!--													<p><strong>Soạn ME hoặc soạn KE</strong></p>-->
-<!--												</div>-->
-<!--											</div>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Gói ngày</p>-->
-<!--											<hr style="width: 30px; height: 3px; margin: auto">-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Cú pháp xác nhận đăng kí</p>-->
-<!--											<p><strong>-</strong></p>-->
-<!--										</li>-->
-<!--										<li class="list-group-item">-->
-<!--											<p>Hủy gói thành viên</p>-->
-<!--											<p><strong>-</strong></p>-->
-<!--										</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
+							<div class="col-sm-12 col-md-2">
+								<div class="row">
+									<div class="col-12">
+										<h4 class="text-center">GÓI PROMOTION</h4>
+									</div>
+								</div>
+								<div class="card text-center">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<h4 class="text-color-custom">MobiFone</h4>
+										</li>
+										<li class="list-group-item">
+											<p>Đăng kí dịch vụ</p>
+											<div class="row">
+												<div class="col-12">
+													<p><strong>Soạn DK P</strong></p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<p>Gói ngày</p>
+											<hr style="width: 30px; height: 3px; margin: auto">
+										</li>
+										<li class="list-group-item">
+											<p>Cú pháp xác nhận đăng kí</p>
+											<p><strong>Soạn Y P</strong></p>
+										</li>
+										<li class="list-group-item">
+											<p>Hủy gói thành viên</p>
+											<p><strong>Soạn HUY P</strong></p>
+										</li>
+										<li class="list-group-item">
+											<a href="#">-</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-md-2">
+								<div class="row">
+									<div class="col-12">
+										<h4 class="text-center">GÓI MEDIUM</h4>
+									</div>
+								</div>
+								<div class="card text-center">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<h4 class="text-color-custom">Viettel</h4>
+										</li>
+										<li class="list-group-item">
+											<p>Đăng kí dịch vụ</p>
+											<div class="row">
+												<div class="col-12">
+													<p><strong>Soạn M hoặc soạn M1</strong></p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<p>Gói ngày</p>
+											<hr style="width: 30px; height: 3px; margin: auto">
+										</li>
+										<li class="list-group-item">
+											<p>Cú pháp xác nhận đăng kí</p>
+											<p><strong>-</strong></p>
+										</li>
+										<li class="list-group-item">
+											<p>Hủy gói thành viên</p>
+											<p><strong>-</strong></p>
+										</li>
+										<li class="list-group-item">
+											<a href="#">-</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-md-2">
+								<div class="row">
+									<div class="col-12">
+										<h4 class="text-center">GÓI MẸ KỂ CON NGHE</h4>
+									</div>
+								</div>
+								<div class="card text-center">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<h4 class="text-color-custom">Viettel</h4>
+										</li>
+										<li class="list-group-item">
+											<p>Đăng kí dịch vụ</p>
+											<div class="row">
+												<div class="col-12">
+													<p><strong>Soạn ME hoặc soạn KE</strong></p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<p>Gói ngày</p>
+											<hr style="width: 30px; height: 3px; margin: auto">
+										</li>
+										<li class="list-group-item">
+											<p>Cú pháp xác nhận đăng kí</p>
+											<p><strong>-</strong></p>
+										</li>
+										<li class="list-group-item">
+											<p>Hủy gói thành viên</p>
+											<p><strong>-</strong></p>
+										</li>
+										<li class="list-group-item">
+											<a href="#">-</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-md-2">
+								<div class="row">
+									<div class="col-12">
+										<h4 class="text-center">GÓI TRIỆU PHÚ</h4>
+									</div>
+								</div>
+								<div class="card text-center">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<h4 class="text-color-custom">Vinaphone</h4>
+										</li>
+										<li class="list-group-item">
+											<p>Đăng kí dịch vụ</p>
+											<div class="row">
+												<div class="col-12">
+													<p><strong>Soạn T hoặc soạn TP</strong></p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<p>Gói ngày</p>
+											<hr style="width: 30px; height: 3px; margin: auto">
+										</li>
+										<li class="list-group-item">
+											<p>Cú pháp xác nhận đăng kí</p>
+											<p><strong>-</strong></p>
+										</li>
+										<li class="list-group-item">
+											<p>Hủy gói thành viên</p>
+											<p><strong>Soạn HUY T</strong></p>
+										</li>
+										<li class="list-group-item">
+                                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                                Xem thêm
+                                            </button>
+<!--											<a href="http://bss.vascloud.com.vn/unify/register.jsp?requestid=210122014754&amp;returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;cp=1000711&amp;service=1001095&amp;package=1012707&amp;requestdatetime="21212121janjan2222010101015454&channel="wap&amp;securecode=127c2455d2032a6242ce1b342ff85445" class="btn btn-sm btn-primary">Đăng ký</a>-->
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-1"></div>
 						</div>
 					</div>
 					<div class="container">
@@ -582,6 +634,142 @@
 					</div>
 				</div>
 			</div>
+<!--            popup modal-->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Gói dịch vụ Vinaphone</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4 class="text-center">GÓI TRIỆU PHÚ</h4>
+                                        </div>
+                                    </div>
+                                    <div class="card text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <h4 class="text-color-custom">Vinaphone</h4>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Đăng kí dịch vụ</p>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p><strong>Soạn T hoặc soạn TP</strong></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Gói ngày</p>
+                                                <hr style="width: 30px; height: 3px; margin: auto">
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Cú pháp xác nhận đăng kí</p>
+                                                <p><strong>-</strong></p>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Hủy gói thành viên</p>
+                                                <p><strong>Soạn HUY T</strong></p>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                    <input type="hidden" name="command" value="DK">
+                                                    <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4 class="text-center">GÓI LẺ M5</h4>
+                                        </div>
+                                    </div>
+                                    <div class="card text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <h4 class="text-color-custom">Vinaphone</h4>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Đăng kí dịch vụ</p>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p><strong>-</strong></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Gói lẻ</p>
+                                                <hr style="width: 30px; height: 3px; margin: auto">
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Cú pháp xác nhận đăng kí</p>
+                                                <p><strong>-</strong></p>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Hủy gói thành viên</p>
+                                                <p><strong>-</strong></p>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                    <input type="hidden" name="command" value="M5">
+                                                    <button type="submit" class="btn btn-sm btn-primary">Mua</button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4 class="text-center">GÓI LẺ M10</h4>
+                                        </div>
+                                    </div>
+                                    <div class="card text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <h4 class="text-color-custom">Vinaphone</h4>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Đăng kí dịch vụ</p>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p><strong>-</strong></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Gói lẻ</p>
+                                                <hr style="width: 30px; height: 3px; margin: auto">
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Cú pháp xác nhận đăng kí</p>
+                                                <p><strong>-</strong></p>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <p>Hủy gói thành viên</p>
+                                                <p><strong>-</strong></p>
+                                            </li>
+                                            <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                <input type="hidden" name="command" value="M10">
+                                                <button type="submit" class="btn btn-sm btn-primary">Mua</button>
+                                            </form>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            end popup modal-->
 
 			<!-- cac goi dich vu -->
 			<div class="w-100" id="goidichvu">
@@ -589,7 +777,7 @@
 				<hr style="border: 3px solid #2692f5; border-radius: 3px; width: 30px; margin: 20px auto 20px auto;">
 				<h3 class="text-center" style="font-weight: bolder">THÔNG TIN VỀ GÓI CƯỚC VÀ MỨC CƯỚC TƯƠNG ỨNG</h3>
 				<h4 class="text-center" style="font-weight: bolder">(Giá cước đã bao gồm VAT)</h4>
-				<div class="container" style="margin: auto">
+				<div class="container-fluid" style="margin: auto">
 					<div class="row">
 						<div class="col-6">
 							<p class="text-color-custom text-right">Cước vượt định mức khi gọi đầu số 1048</p>
@@ -604,7 +792,8 @@
 					</div>
 
 					<div class="row" style="padding: 20px 0px 40px 0px">
-						<div class="col-sm-12 col-md-3 margin-goi">
+						<div class="col-sm-12 col-md-1"></div>
+						<div class="col-sm-12 col-md-2 margin-goi">
 							<div class="card text-center text-white h-100"
 								 style="background-color:#2798f8; border-radius: 10px;">
 								<h4 style="margin-top: 30px;">Machine Learning</h4>
@@ -624,7 +813,7 @@
 							</div>
 						</div>
 
-						<div class="col-sm-12 col-md-3 margin-goi">
+						<div class="col-sm-12 col-md-2 margin-goi">
 							<div class="card text-center text-white h-100"
 								 style="background-color: #257dda; border-radius: 10px;">
 								<h4 style="margin-top: 30px;">Promotion</h4>
@@ -644,7 +833,7 @@
 							</div>
 						</div>
 
-						<div class="col-sm-12 col-md-3 margin-goi">
+						<div class="col-sm-12 col-md-2 margin-goi">
 							<div class="card text-center text-white h-100"
 								 style="background-color: #236abc; border-radius: 10px;">
 								<h4 style="margin-top: 30px;">Medium</h4>
@@ -656,7 +845,7 @@
 							</div>
 						</div>
 
-						<div class="col-sm-12 col-md-3 margin-goi">
+						<div class="col-sm-12 col-md-2 margin-goi">
 							<div class="card text-center text-white h-100"
 								 style="background-color: #1e599e; border-radius: 10px;">
 								<h4 style="margin-top: 30px;">Mẹ kể con nghe</h4>
@@ -668,6 +857,20 @@
 							</div>
 						</div>
 
+						<div class="col-sm-12 col-md-2 margin-goi">
+							<div class="card text-center text-white h-100"
+								 style="background-color: #1e599e; border-radius: 10px;">
+								<h4 style="margin-top: 30px;">Triệu phú</h4>
+								<h1>3.000đ</h1>
+								<div class="w-75" style="margin: auto">
+									<p>Mỗi ngày</p>
+									<hr style="margin: auto; width: 30px; border: 3px solid white; border-radius: 3px">
+									<p><span style="font-weight: bold">Miễn phí cước thuê bao 01 ngày</span> sử dụng đầu
+										tiên cho thuê bao đăng ký lần đầu</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-1"></div>
 					</div>
 				</div>
 			</div>
