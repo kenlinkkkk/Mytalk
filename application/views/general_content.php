@@ -326,9 +326,16 @@
 											<p>Hủy gói thành viên</p>
 											<p><strong>Soạn HUY M</strong></p>
 										</li>
-										<li class="list-group-item">
-											<a href="#">-</a>
-										</li>
+                                        <li class="list-group-item">
+                                            <?php if ( $msisdn = $this->session->userdata('msisdn') !== 'empty' ) : ?>
+                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                    <input type="hidden" name="command" value="M">
+                                                    <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
+                                                </form>
+                                            <?php else : ?>
+                                                <p><strong>-</strong></p>
+                                            <?php endif; ?>
+                                        </li>
 									</ul>
 								</div>
 							</div>
@@ -364,9 +371,16 @@
 											<p>Hủy gói thành viên</p>
 											<p><strong>Soạn HUY P</strong></p>
 										</li>
-										<li class="list-group-item">
-											<a href="#">-</a>
-										</li>
+                                        <li class="list-group-item">
+                                            <?php if ( $msisdn = $this->session->userdata('msisdn') !== 'empty' ) : ?>
+                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                    <input type="hidden" name="command" value="P">
+                                                    <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
+                                                </form>
+                                            <?php else : ?>
+                                                <p><strong>-</strong></p>
+                                            <?php endif; ?>
+                                        </li>
 									</ul>
 								</div>
 							</div>
@@ -403,7 +417,7 @@
 											<p><strong>-</strong></p>
 										</li>
 										<li class="list-group-item">
-											<a href="#">-</a>
+                                            <p><strong>-</strong></p>
 										</li>
 									</ul>
 								</div>
@@ -441,7 +455,7 @@
 											<p><strong>-</strong></p>
 										</li>
 										<li class="list-group-item">
-											<a href="#">-</a>
+                                            <p><strong>-</strong></p>
 										</li>
 									</ul>
 								</div>
@@ -479,10 +493,14 @@
 											<p><strong>Soạn HUY T</strong></p>
 										</li>
 										<li class="list-group-item">
-                                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                                Xem thêm
-                                            </button>
-<!--											<a href="http://bss.vascloud.com.vn/unify/register.jsp?requestid=210122014754&amp;returnurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;backurl=http%3a%2f%2flocalhost%2fmytalk%2fbackurl&amp;cp=1000711&amp;service=1001095&amp;package=1012707&amp;requestdatetime="21212121janjan2222010101015454&channel="wap&amp;securecode=127c2455d2032a6242ce1b342ff85445" class="btn btn-sm btn-primary">Đăng ký</a>-->
+                                            <?php if ( $msisdn = $this->session->userdata('msisdn') !== 'empty' ) : ?>
+                                                <p><strong>-</strong></p>
+                                            <?php else : ?>
+                                                <button type="button" class="btn btn-sm btn-primary mt-1 mb-1" data-toggle="modal" data-target="#exampleModalCenter">
+                                                    Xem thêm
+                                                </button>
+                                            <?php endif; ?>
+
 										</li>
 									</ul>
 								</div>
@@ -661,7 +679,7 @@
                                                 <p>Đăng kí dịch vụ</p>
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <p><strong>Soạn T hoặc soạn TP</strong></p>
+                                                        <p><strong>Soạn T hoặc soạn P</strong></p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -678,10 +696,14 @@
                                                 <p><strong>Soạn HUY T</strong></p>
                                             </li>
                                             <li class="list-group-item">
-                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
-                                                    <input type="hidden" name="command" value="DK">
-                                                    <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
-                                                </form>
+                                                <?php if($device === 'mobile'): ?>
+                                                    <form method="post" action="<?= base_url('dang-ky-goi')?>">
+                                                        <input type="hidden" name="command" value="DK">
+                                                        <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
+                                                    </form>
+                                                <?php else: ?>
+                                                    <p><strong>-</strong></p>
+                                                <?php endif; ?>
                                             </li>
                                         </ul>
                                     </div>
@@ -701,12 +723,12 @@
                                                 <p>Đăng kí dịch vụ</p>
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <p><strong>-</strong></p>
+                                                        <p><strong>Soạn M5</strong></p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
-                                                <p>Gói lẻ</p>
+                                                <p>Gói lẻ - 5.000 VNĐ</p>
                                                 <hr style="width: 30px; height: 3px; margin: auto">
                                             </li>
                                             <li class="list-group-item">
@@ -718,10 +740,14 @@
                                                 <p><strong>-</strong></p>
                                             </li>
                                             <li class="list-group-item">
-                                                <form method="post" action="<?=  base_url('dang-ky-goi')?>">
-                                                    <input type="hidden" name="command" value="M5">
-                                                    <button type="submit" class="btn btn-sm btn-primary">Mua</button>
-                                                </form>
+                                                <?php if($device === 'mobile'): ?>
+                                                    <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                        <input type="hidden" name="command" value="M5">
+                                                        <button type="submit" class="btn btn-sm btn-primary">Mua</button>
+                                                    </form>
+                                                <?php else: ?>
+                                                    <p><strong>-</strong></p>
+                                                <?php endif; ?>
                                             </li>
                                         </ul>
                                     </div>
@@ -741,12 +767,12 @@
                                                 <p>Đăng kí dịch vụ</p>
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <p><strong>-</strong></p>
+                                                        <p><strong>Soạn M10</strong></p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
-                                                <p>Gói lẻ</p>
+                                                <p>Gói lẻ - 10.000 VNĐ</p>
                                                 <hr style="width: 30px; height: 3px; margin: auto">
                                             </li>
                                             <li class="list-group-item">
@@ -757,10 +783,16 @@
                                                 <p>Hủy gói thành viên</p>
                                                 <p><strong>-</strong></p>
                                             </li>
-                                            <form method="post" action="<?=  base_url('dang-ky-goi')?>">
-                                                <input type="hidden" name="command" value="M10">
-                                                <button type="submit" class="btn btn-sm btn-primary">Mua</button>
-                                            </form>
+                                            <li class="list-group-item">
+                                                <?php if($device == 'mobile'): ?>
+                                                    <form method="post" action="<?=  base_url('dang-ky-goi')?>">
+                                                        <input type="hidden" name="command" value="M10">
+                                                        <button type="submit" class="btn btn-sm btn-primary">Mua</button>
+                                                    </form>
+                                                <?php else: ?>
+                                                    <p><strong>-</strong></p>
+                                                <?php endif; ?>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
