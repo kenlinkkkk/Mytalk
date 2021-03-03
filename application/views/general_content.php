@@ -676,33 +676,15 @@
                                                 <h4 class="text-color-custom">Vinaphone</h4>
                                             </li>
                                             <li class="list-group-item">
-                                                <p>Đăng kí dịch vụ</p>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <p><strong>Soạn T hoặc soạn P</strong></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Gói ngày</p>
-                                                <hr style="width: 30px; height: 3px; margin: auto">
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Cú pháp xác nhận đăng kí</p>
-                                                <p><strong>-</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Hủy gói thành viên</p>
-                                                <p><strong>Soạn HUY T</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
                                                 <?php if($device === 'mobile'): ?>
                                                     <form method="post" action="<?= base_url('dang-ky-goi')?>">
                                                         <input type="hidden" name="command" value="DK">
                                                         <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
                                                     </form>
                                                 <?php else: ?>
-                                                    <p><strong>-</strong></p>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalTP">
+                                                        Đăng  ký
+                                                    </button>
                                                 <?php endif; ?>
                                             </li>
                                         </ul>
@@ -720,33 +702,15 @@
                                                 <h4 class="text-color-custom">Vinaphone</h4>
                                             </li>
                                             <li class="list-group-item">
-                                                <p>Đăng kí dịch vụ</p>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <p><strong>Soạn M5</strong></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Gói lẻ - 5.000 VNĐ</p>
-                                                <hr style="width: 30px; height: 3px; margin: auto">
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Cú pháp xác nhận đăng kí</p>
-                                                <p><strong>-</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Hủy gói thành viên</p>
-                                                <p><strong>-</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
                                                 <?php if($device === 'mobile'): ?>
                                                     <form method="post" action="<?=  base_url('dang-ky-goi')?>">
                                                         <input type="hidden" name="command" value="M5">
                                                         <button type="submit" class="btn btn-sm btn-primary">Mua</button>
                                                     </form>
                                                 <?php else: ?>
-                                                    <p><strong>-</strong></p>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalM5">
+                                                        Đăng  ký
+                                                    </button>
                                                 <?php endif; ?>
                                             </li>
                                         </ul>
@@ -764,33 +728,15 @@
                                                 <h4 class="text-color-custom">Vinaphone</h4>
                                             </li>
                                             <li class="list-group-item">
-                                                <p>Đăng kí dịch vụ</p>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <p><strong>Soạn M10</strong></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Gói lẻ - 10.000 VNĐ</p>
-                                                <hr style="width: 30px; height: 3px; margin: auto">
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Cú pháp xác nhận đăng kí</p>
-                                                <p><strong>-</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <p>Hủy gói thành viên</p>
-                                                <p><strong>-</strong></p>
-                                            </li>
-                                            <li class="list-group-item">
                                                 <?php if($device == 'mobile'): ?>
                                                     <form method="post" action="<?=  base_url('dang-ky-goi')?>">
                                                         <input type="hidden" name="command" value="M10">
                                                         <button type="submit" class="btn btn-sm btn-primary">Mua</button>
                                                     </form>
                                                 <?php else: ?>
-                                                    <p><strong>-</strong></p>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalM10">
+                                                        Đăng  ký
+                                                    </button>
                                                 <?php endif; ?>
                                             </li>
                                         </ul>
@@ -993,4 +939,132 @@
 		</div>
 		<!-- end about me -->
 	</div>
+
+    <!-- modal huong dan -->
+
+    <div class="modal fade" id="exampleModalTP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelTP" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelTP">Gói Triệu Phú</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card text-center">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 class="text-color-custom">Vinaphone</h4>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Đăng kí dịch vụ</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><strong>Soạn T hoặc P</strong></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Gói ngày - 3.000 VNĐ</p>
+                                <hr style="width: 30px; height: 3px; margin: auto">
+                            </li>
+                            <li class="list-group-item">
+                                <p>Cú pháp xác nhận đăng kí</p>
+                                <p><strong>-</strong></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Hủy gói thành viên</p>
+                                <p><strong>Soạn HUY T</strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalM5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelM5" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelM5">Gói lẻ M5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card text-center">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 class="text-color-custom">Vinaphone</h4>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Đăng kí dịch vụ</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><strong>Soạn M5</strong></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Gói lẻ - 5.000VNĐ</p>
+                                <hr style="width: 30px; height: 3px; margin: auto">
+                            </li>
+                            <li class="list-group-item">
+                                <p>Cú pháp xác nhận đăng kí</p>
+                                <p><strong>-</strong></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Hủy gói thành viên</p>
+                                <p><strong>-</strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalM10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelM10" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelM10">Gói lẻ M10</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card text-center">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 class="text-color-custom">Vinaphone</h4>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Đăng kí dịch vụ</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><strong>Soạn M10</strong></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Gói lẻ - 10.000VNĐ</p>
+                                <hr style="width: 30px; height: 3px; margin: auto">
+                            </li>
+                            <li class="list-group-item">
+                                <p>Cú pháp xác nhận đăng kí</p>
+                                <p><strong>-</strong></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p>Hủy gói thành viên</p>
+                                <p><strong>-</strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
