@@ -189,7 +189,6 @@ class home_mode extends MX_Controller {
         $playType = '';
         $CPName = 'VANO';
         $contentName = 'CONTENT';
-        $requestId = date('ymdhis');
 
         $baseContent = 'http://123.31.31.19:80/v1/synch_charge/';
         $authenCode = base64_encode('mytalkvanovasgate@13579Mytalk1201vano');
@@ -197,6 +196,7 @@ class home_mode extends MX_Controller {
         $failUrl = base_url('that-bai');
         $backUrl = strtolower(urlencode(base_url('backurl')));
         if ($command == 'DK') {
+            $requestId = date('ymdhis');
             $baseUrl = 'http://bss.vascloud.com.vn/unify/register.jsp';
 
             $returnUrl = strtolower(urlencode(base_url('backurl')));
@@ -221,6 +221,16 @@ class home_mode extends MX_Controller {
 
             $url = $baseContent .'?package_code=M10&charge_price=10000';
             log_message('ERROR', 'content-> '. $url);
+        } elseif ($command == 'HUYTP') {
+            $baseUrl = 'http://bss.vascloud.com.vn/unify/cancel.jsp';
+            $backUrl = base_url('backurl');
+            $requestId = date('ymdhis');
+            $requestDatetime = date('yyyyMMddHHmmss');
+            $securePass = 'MZP3WAqOCUIWrMfsG7Ac2BfdcOzUfxdA';
+            $secureCode = md5(random_int(1, 999999) . '"pre_register.jsp' . '"pre_register.jsp' . $requestDatetime . 'wap' . $securePass);
+
+            $url = $baseUrl .'?requestId=' .$requestId. '&returnurl' .$backUrl. '&backurl=' .$backUrl. '&cpid=' .$cpId. '&service=' .$serviceId. '&package=1012707&channel=web&securecode='. $secureCode;
+            log_message('ERROR',  'cancel->'.$url);
         } elseif (($msisdn = $this->session->userdata('msisdn') !== 'empty') && ($command == 'M' || $command == 'P')) {
             $trans_id = date('ymdhis');
             $command_code = "DK " .$command;

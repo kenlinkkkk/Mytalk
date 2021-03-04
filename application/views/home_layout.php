@@ -54,10 +54,10 @@
 								<h6 style="margin: 0px; color: white; padding-right: 30px;"><span><img src="<?= base_url('images/icon/email-icon.png')?>" class="icon-custom"></span> cskh@vano.vn</h6>
 							</li>
 							<?php
-							if ($this->session->msisdn == 'empty') {
-								echo '<li class="nav-item"><a id="dangnhapbtn1" class="btn btn-primary btn-outline-light btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
-								}
-							?>
+//							if ($this->session->msisdn == 'empty') {
+//								echo '<li class="nav-item"><a id="dangnhapbtn1" class="btn btn-primary btn-outline-light btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
+//								}
+//							?>
 						</ul>
 					</div>
 				</div>
@@ -95,11 +95,11 @@
 							<li class="nav-item none-padding">
 								<a class="nav-link text-white" href="http://news.mytalk.vn/">TIN TỨC</a>
 							</li>
-							<?php
-								if ($this->session->msisdn == 'empty') {
-									echo '<li class="nav-item none-padding show-sm"><a id="dangnhapbtn2" class="btn btn-primary btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
-								}
-							?>
+<!--							--><?php
+//								if ($this->session->msisdn == 'empty') {
+//									echo '<li class="nav-item none-padding show-sm"><a id="dangnhapbtn2" class="btn btn-primary btn-sm" href="#" style="width: 120px;"><strong>Đăng nhập</strong></a></li>';
+//								}
+//							?>
 						</ul>
 					</div>
 				</div>

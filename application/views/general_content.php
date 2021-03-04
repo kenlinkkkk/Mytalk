@@ -681,6 +681,10 @@
                                                         <input type="hidden" name="command" value="DK">
                                                         <button type="submit" class="btn btn-sm btn-primary">Đăng ký</button>
                                                     </form>
+<!--                                                    <form method="post" action="--><?//= base_url('dang-ky-goi')?><!--">-->
+<!--                                                        <input type="hidden" name="command" value="HUYTP">-->
+<!--                                                        <button type="submit" class="btn btn-sm btn-primary">Hủy</button>-->
+<!--                                                    </form>-->
                                                 <?php else: ?>
                                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalTP">
                                                         Đăng  ký
